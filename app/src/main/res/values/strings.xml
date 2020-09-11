@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">GADS-Top20</string>
+
+
+    <string name="learning_leader">Learning Leaders</string>
+    <string name="skill_iq_leaders">Skill IQ Leaders</string>
+    <string name="leader_board">LEADER BOARD</string>
+    <string name="submit">Submit</string>
+    <string name="project_submission">Project Submission</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="project_on_github_link">Project on GITHUB (Link)</string>
+    <string name="email_address">Email Address</string>
+    <string name="krist_code">Krist Code</string>
+    <string name="learner_badge">Learner_badge</string>
+    <string name="skill_badge">skill badge</string>
+    <string name="skill_scored">300 skill IQ Scored, Cameroon</string>
+    <string name="hours_learned">223 learning hours, Cameroon</string>
+
+    <string name="title_activity_gads_launcher">GadsLauncherActivity</string>
+    <string name="are_you_sure">Are you sure ?</string>
+    <string name="yes">Yes</string>
+    <string name="submission_successful">Submission Successful</string>
+    <string name="submission_failed">Submission not Successful</string>
+</resources>

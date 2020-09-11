@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:background="@drawable/rounded_corners_input">
+
+    <ImageButton
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_cancel_black_24dp" />
+
+    <TextView
+        android:id="@+id/text_confirm_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="62dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/are_you_sure"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCancel" />
+
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="230dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="62dp"
+        android:background="@drawable/submit_confirm_button"
+        android:text="@string/yes"
+        android:textColor="@color/submitOrange"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_confirm_message" />
+</androidx.constraintlayout.widget.ConstraintLayout>
